@@ -246,9 +246,7 @@ bool sortByGrade(const Student& a, Student& b){
 }
 
 void sortStudentList(vector<Student> students){
-    /*sap xep theo ten(a-z)
-    sap xep theo tuoi
-    sap xep theo diem*/
+    //sap xep theo ten(a-z)
     cout << "[6] Sap xep danh sach sinh vien \n";
     int subselection;
     cout << "\t1 - Sap xep theo ten ";
@@ -272,6 +270,7 @@ void sortStudentList(vector<Student> students){
         }
         cout << "\t+---+----+---------------------------+----+----+\n";
     }
+    //sap xep theo tuoi
     else if(subselection == 2){
         sort(students.begin(), students.end(), sortByAge);
         cout << "\t+---+----+---------------------------+----+----+\n";
@@ -288,6 +287,7 @@ void sortStudentList(vector<Student> students){
         }
         cout << "\t+---+----+---------------------------+----+----+\n";
     }
+    //sap xep theo diem
     else if (subselection == 3){
         sort(students.begin(), students.end(), sortByGrade);
         cout << "\t+---+----+---------------------------+----+----+\n";
