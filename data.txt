@@ -1,0 +1,11 @@
+1234;TheDZ;23;10;
+6646;Ngoc Hai;21;7.5;
+3632;Anh Tuan;23;9;
+7774;Ha Giang;20;8.5;
+6879;Van Toan;24;6;
+7293;Minh Tri;20;7.5;
+9834;Han Nhi;18;9;
+7492;Van Khang;22;7;
+5783;Ly Ly;21;9.5;
+8324;Obama;50;10;
+8237;Biden;50;9.3;
