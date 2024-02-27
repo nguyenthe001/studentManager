@@ -36,7 +36,7 @@ vector<Student> readFile(vector<Student>& students){
     return students;
 }
 
-void showStudentList(vector<Student> students){
+void showStudentList(const vector<Student>& students){
     cout << "[1] Danh sach sinh vien \n";
     cout << "\t+---+----+---------------------------+----+----+\n";
     cout << "\t|STT|" << setw(4) << right << "MaSV|" 
@@ -157,7 +157,7 @@ void deleteStudent(vector<Student>& students){
     output.close();
 }
 
-void searchStudent(vector<Student> students){
+void searchStudent(const vector<Student>& students){
     cout << "[5] Tim kiem sinh vien \n";
     
     int subselection;
@@ -245,7 +245,7 @@ bool sortByGrade(const Student& a, Student& b){
     return a.grade < b.grade;
 }
 
-void sortStudentList(vector<Student> students){
+void sortStudentList(vector<Student>& students){
     //sap xep theo ten(a-z)
     cout << "[6] Sap xep danh sach sinh vien \n";
     int subselection;
@@ -306,7 +306,7 @@ void sortStudentList(vector<Student> students){
     }
 }
 
-void statistics(vector<Student> students){
+void statistics(const vector<Student>& students){
     cout << "[7] Thong ke\n";
     //Thong ke diem trung binh cua ca lop
     int sum = 0;
