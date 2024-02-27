@@ -245,7 +245,7 @@ bool sortByGrade(const Student& a, Student& b){
     return a.grade < b.grade;
 }
 
-void sortStudentList(vector<Student>& students){
+void sortStudentList(vector<Student> students){
     //sap xep theo ten(a-z)
     cout << "[6] Sap xep danh sach sinh vien \n";
     int subselection;
